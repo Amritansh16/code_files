@@ -25,7 +25,7 @@ void func(vector<int> &v,int in,int sum,int t)
 int main()
 {
 	vector<int> v;
-	int n;
+	int n;           //size of array
 	cin>>n;
 	int a;
 	
@@ -34,7 +34,7 @@ int main()
 	   	cin>>a;
 	   	v.push_back(a);
 	   }
-	   int t;
+	   int t;       // value of target sum
 	cin>>t;
 	   func(v,0,0,t);
 }
